@@ -92,7 +92,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-neofetch
+echo '\n'
+archfetch
+echo '\n'
 alias n="neofetch"
 alias c="clear"
 alias zshrc="vim ~/.zshrc"
@@ -106,5 +108,4 @@ PATH="$NPM_PACKAGES/bin:$PATH"
 command
 unset MANPATH # delete if you already modified MANPATH elsewhere in 
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
-source /home/akepinski/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/akepinski/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
