@@ -1,6 +1,6 @@
 # xxczaki's dotfiles
 
-> Just my peronal dotfiles :smile:
+> Just my personal dotfiles :smile:
 
 ## Usage
 
