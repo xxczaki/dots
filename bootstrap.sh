@@ -72,7 +72,7 @@ if [ "$CONT" = 'y' ]; then
         printf "%40s\n" "${cyan}› Checking if npm configuration file was copied...${normal}"
 
         if [ -e "~/.npmrc" ]; then
-            printf "%40s\n" "${green}✔ ︎zsh configuration was copied successfully${normal}"
+            printf "%40s\n" "${green}✔ ︎npm configuration was copied successfully${normal}"
         fi 
         
         printf "%40s\n" "${green}✔︎ Done!${normal}"
