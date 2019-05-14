@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/akepinski/.oh-my-zsh"
+  export ZSH="/home/$USER/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -105,4 +105,4 @@ export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
 # zsh pure prompt
 
-fpath+=('/home/akepinski/.npm-packages/lib/node_modules/pure-prompt/functions')
+fpath+=("/home/$USER/.npm-packages/lib/node_modules/pure-prompt/functions")
