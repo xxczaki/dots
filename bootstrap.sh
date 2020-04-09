@@ -30,7 +30,7 @@ if [ "$CONT" = 'y' ]; then
         sudo apt update -y > /dev/null 2>&1
         sudo apt install -y zsh curl git > /dev/null 2>&1
 
-        curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - > /dev/null 2>&1
+        curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - > /dev/null 2>&1
 
         echo
         printf "${cyan}› Configuring zsh${normal}"
