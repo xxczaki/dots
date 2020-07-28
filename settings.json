@@ -69,7 +69,8 @@
         "Kross",
         "Spotify",
         "YubiKey",
-        "IntelliCode"
+        "IntelliCode",
+        "dotfiles"
     ],
     "editor.autoIndent": "keep",
     "window.closeWhenEmpty": true,
