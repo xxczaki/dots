@@ -7,7 +7,6 @@
     "html.format.enable": true,
     "html.format.preserveNewLines": true,
     "files.trimTrailingWhitespace": true,
-    "editor.tabSize": 4,
     // this isn't really underline but we hack it to be a thicker cursor
     "editor.cursorStyle": "line",
     "editor.wordWrap": "on",
@@ -40,10 +39,6 @@
     "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
     // These are all my auto-save configs
     "editor.formatOnSave": true,
-    // turn it off for JS
-    "[javascript]": {
-        "editor.formatOnSave": false
-    },
     "cSpell.userWords": [
         "SIGNUP",
         "Signin",
@@ -87,5 +82,11 @@
     "window.zoomLevel": 0,
     "editor.parameterHints.enabled": false,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "xo.enable": true,
+    "xo.format.enable": true
 }
