@@ -50,6 +50,34 @@ Most settings can be found in the [`vscode.js`](https://github.com/xxczaki/dotfi
 
 Full settings can be found in the [`iterm2.json`](https://github.com/xxczaki/dotfiles/blob/master/iterm2.json) file.
 
+## Firefox Developer Edition
+
+Configured for privacy using the following video guides:
+- https://www.youtube.com/watch?v=NH4DdXC0RFw
+- https://www.youtube.com/watch?v=uYoJ7U0OMCY
+
+> I have HTTPS-only mode enabled via browser settings (and not the extension)!
+
+Installed extensions:
+- 1Password (via desktop app)
+- [Apollo Client Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/apollo-developer-tools/)
+- [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
+- [Grammar and Spell Checker - LanguageTool](https://addons.mozilla.org/en-US/firefox/addon/languagetool/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- [Hide Files on GitHub](https://addons.mozilla.org/en-US/firefox/addon/hide-files-on-github-/)
+- [I don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)
+- [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+- [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
+- [Refined GitHub](https://addons.mozilla.org/en-US/firefox/addon/refined-github-/)
+- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+- [Wappalyzer](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)
+
+## macOS and iOS
+
+I used the following resources to configure my operating systems:
+- https://www.youtube.com/watch?v=uJBgb8XJoA8
+- https://www.youtube.com/watch?v=nK76EKvburA
+- https://tonsky.me/blog/monitors/
+
 ## Acknowledgments
 
 The VSCode configuration is based on [Wes Bos'](https://github.com/wesbos/dotfiles/blob/master/vscode.js) one.
