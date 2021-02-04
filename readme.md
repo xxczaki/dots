@@ -48,7 +48,7 @@ Most settings can be found in the [`vscode.js`](https://github.com/xxczaki/dotfi
 - Shell: zsh
 - Prompt: [Pure](https://github.com/sindresorhus/pure)
 
-Full settings can be found in the [`iterm2.json`](https://github.com/xxczaki/dotfiles/blob/master/iterm2.json) file.
+Full settings can be found in [`iterm2.json`](https://github.com/xxczaki/dotfiles/blob/master/iterm2.json) and [`.zshrc`](https://github.com/xxczaki/dotfiles/blob/master/.zshrc) files.
 
 ## Firefox Developer Edition
 
