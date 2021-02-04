@@ -43,6 +43,13 @@ Most settings can be found in the [`vscode.js`](https://github.com/xxczaki/dotfi
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 - [XO](https://marketplace.visualstudio.com/items?itemName=samverschueren.linter-xo)
 
+## iTerm 2
+
+- Shell: zsh
+- Prompt: [Pure](https://github.com/sindresorhus/pure)
+
+Full settings can be found in the [`iterm2.json`](https://github.com/xxczaki/dotfiles/blob/master/iterm2.json) file.
+
 ## Acknowledgments
 
 The VSCode configuration is based on [Wes Bos'](https://github.com/wesbos/dotfiles/blob/master/vscode.js) one.
