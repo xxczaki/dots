@@ -1,6 +1,6 @@
 {
     "editor.fontFamily": "Operator Mono Book, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 17,
+    "editor.fontSize": 14,
     "editor.quickSuggestionsDelay": 30,
     "editor.letterSpacing": 0.5,
     "workbench.editor.tabSizing": "shrink",
@@ -27,7 +27,7 @@
         "**/.DS_Store": true,
         "**/.next": true
     },
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "material-icon-theme",
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
@@ -80,13 +80,35 @@
     "editor.useTabStops": true,
     "editor.formatOnPaste": true,
     "window.zoomLevel": 0,
-    "editor.parameterHints.enabled": false,
     "editor.suggestSelection": "first",
     "git.enableSmartCommit": true,
     "git.autofetch": true,
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
     "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
     "xo.enable": true,
-    "xo.format.enable": true
+    "xo.format.enable": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.defaultFormatter": "samverschueren.linter-xo",
+    "editor.formatOnType": true,
+    "css.validate": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.enableExperiments": false,
+    "files.autoSave": "afterDelay",
+    "typescript.tsserver.log": "verbose",
+    "editor.suggest.insertMode": "replace",
+    "material-icon-theme.activeIconPack": "react",
+    "editor.accessibilitySupport": "off",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
 }
