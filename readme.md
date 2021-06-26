@@ -8,36 +8,44 @@
 
 Here you can find config settings for various apps, editors and linters I use. I'd suggest not copying them directly but referencing what I have and what ones might make sense for you.
 
-Also, make sure to check out my [**/uses**](https://kepinski.me/uses) page for more information!
+Also, make sure to check out my [**/uses**](https://kepinski.ch/uses) page for more information!
 
 ## Visual Studio Code
 
 Most settings can be found in the [`vscode.js`](https://github.com/xxczaki/dotfiles/blob/master/vscode.js) file, including font, theme and color scheme. Here are the plugins I installed:
 
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [AVA](https://marketplace.visualstudio.com/items?itemName=samverschueren.ava)
 - [Backticks](https://marketplace.visualstudio.com/items?itemName=fractalbrew.backticks)
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+- [Cargo](https://marketplace.visualstudio.com/items?itemName=panicbit.cargo)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+- [crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates)
 - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [ES String HTML](https://marketplace.visualstudio.com/items?itemName=hjb2012.vscode-es6-string-html)
 - [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 - [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
-- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [GraphQL](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql)
 - [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
 - [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [NGINX Configuration](https://marketplace.visualstudio.com/items?itemName=william-voyek.vscode-nginx)
 - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
+- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 - [Reload](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
+- [Require to Import Syntax](https://marketplace.visualstudio.com/items?itemName=Bruce.rona)
+- [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer)
 - [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Text Pastry](https://marketplace.visualstudio.com/items?itemName=jkjustjoshing.vscode-text-pastry)
 - [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
@@ -50,26 +58,22 @@ Most settings can be found in the [`vscode.js`](https://github.com/xxczaki/dotfi
 
 Full settings can be found in [`iterm2.json`](https://github.com/xxczaki/dotfiles/blob/master/iterm2.json) and [`.zshrc`](https://github.com/xxczaki/dotfiles/blob/master/.zshrc) files.
 
-## Firefox Developer Edition
+## Brave
 
-Configured for privacy using the following video guides:
-- https://www.youtube.com/watch?v=NH4DdXC0RFw
-- https://www.youtube.com/watch?v=uYoJ7U0OMCY
-
-> I have HTTPS-only mode enabled via browser settings (and not the extension)!
+> Configured for maximum privacy
 
 Installed extensions:
 - 1Password (via desktop app)
-- [Apollo Client Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/apollo-developer-tools/)
-- [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
-- [Grammar and Spell Checker - LanguageTool](https://addons.mozilla.org/en-US/firefox/addon/languagetool/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
-- [Hide Files on GitHub](https://addons.mozilla.org/en-US/firefox/addon/hide-files-on-github-/)
-- [I don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)
-- [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
-- [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
-- [Refined GitHub](https://addons.mozilla.org/en-US/firefox/addon/refined-github-/)
-- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [Wappalyzer](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)
+- [Decentraleyes](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
+- [Grammar and Spell Checker - LanguageTool](https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji)
+- [Hide Files on GitHub](https://chrome.google.com/webstore/detail/hide-files-on-github/lpnakhpaodhdkleejaehlapdhbgjbddp)
+- [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
+- [I don't care about cookies](https://chrome.google.com/webstore/detail/i-dont-care-about-cookies/fihnjjcciajhdojfnbdddfaoknhalnja)
+- [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- [Refined GitHub](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
+- [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
 
 ## macOS and iOS
 
